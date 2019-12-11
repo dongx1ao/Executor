@@ -41,7 +41,6 @@ public class VisiableThreadPoolTaskExecutor extends ThreadPoolTaskExecutor {
 
 
     @Override
-
     public void execute(Runnable task) {
         showThreadPoolInfo("1. do execute");
         super.execute(task);
